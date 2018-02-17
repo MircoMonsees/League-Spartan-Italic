@@ -5,7 +5,8 @@ DisplayStrings = (
 "kn/v.ss01 on dero/w.ss01 enop/y.ss01 an",
 /v.ss01/w.ss01/y.ss01,
 vaken,
-"nosn\U00DFNQNSONntern"
+"nosn\U00DFlNQNSONntern",
+"na\U00DFpeitsche"
 );
 classes = (
 {
@@ -124,6 +125,7 @@ alignmentZones = (
 "{860, 16}",
 "{513, 16}",
 "{0, -16}",
+"{-260, -16}",
 "{-350, -19}"
 );
 ascender = 900;
@@ -11066,7 +11068,7 @@ unicode = 0219;
 {
 color = 1;
 glyphname = germandbls;
-lastChange = "2018-02-17 16:52:45 +0000";
+lastChange = "2018-02-17 18:01:04 +0000";
 layers = (
 {
 background = {
@@ -11121,19 +11123,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"255 875 OFFCURVE",
+"243 875 OFFCURVE",
 "145 740 OFFCURVE",
 "114 562 CURVE SMOOTH",
 "-31 -260 LINE",
 "37 -260 LINE",
 "184 572 LINE SMOOTH",
 "210 721 OFFCURVE",
-"302 818 OFFCURVE",
-"428 818 CURVE SMOOTH",
-"520 818 OFFCURVE",
-"572 770 OFFCURVE",
-"556 685 CURVE SMOOTH",
-"525 519 OFFCURVE",
+"290 818 OFFCURVE",
+"416 818 CURVE SMOOTH",
+"508 818 OFFCURVE",
+"556 770 OFFCURVE",
+"540 685 CURVE SMOOTH",
+"509 519 OFFCURVE",
 "233 513 OFFCURVE",
 "212 387 CURVE SMOOTH",
 "183 216 OFFCURVE",
@@ -11156,11 +11158,11 @@ nodes = (
 "260 273 OFFCURVE",
 "277 380 CURVE SMOOTH",
 "290 463 OFFCURVE",
-"587 475 OFFCURVE",
-"623 681 CURVE SMOOTH",
-"645 808 OFFCURVE",
-"572 875 OFFCURVE",
-"439 875 CURVE SMOOTH"
+"571 475 OFFCURVE",
+"607 681 CURVE SMOOTH",
+"629 808 OFFCURVE",
+"560 875 OFFCURVE",
+"427 875 CURVE SMOOTH"
 );
 }
 );
@@ -22263,7 +22265,7 @@ interpolationWidth = 5;
 instanceInterpolations = {
 "7984B694-437B-44C7-A8AE-41A7C9CC5720" = 1;
 };
-name = Light;
+name = "Light Italic";
 weightClass = Light;
 },
 {
@@ -22278,7 +22280,7 @@ instanceInterpolations = {
 "6F85D940-A117-47EE-950D-70F837F8C9CE" = 0.26667;
 "7984B694-437B-44C7-A8AE-41A7C9CC5720" = 0.73333;
 };
-name = Regular;
+name = Italic;
 },
 {
 customParameters = (
@@ -22293,7 +22295,7 @@ instanceInterpolations = {
 "6F85D940-A117-47EE-950D-70F837F8C9CE" = 0.6;
 "7984B694-437B-44C7-A8AE-41A7C9CC5720" = 0.4;
 };
-name = Semibold;
+name = "Semibold Italic";
 weightClass = SemiBold;
 },
 {
@@ -22308,7 +22310,7 @@ interpolationWidth = 5;
 instanceInterpolations = {
 "6F85D940-A117-47EE-950D-70F837F8C9CE" = 1;
 };
-name = Bold;
+name = "Bold Italic";
 weightClass = Bold;
 }
 );
